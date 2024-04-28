@@ -1,4 +1,4 @@
-import { ContadorProvider } from '../Contexto/ContextoCount';
+
 
 import Corpo from "../components/Body"
 import Footer from "../components/Footer"
