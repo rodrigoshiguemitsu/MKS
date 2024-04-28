@@ -28,7 +28,7 @@ function Cabecalho() {
             }
         }
         handleRecuperarProduto()
-    }, [])
+    }, [produto])
 
     const [carrinhoAberto, setCarrinhoAberto] = useState(false)
 
