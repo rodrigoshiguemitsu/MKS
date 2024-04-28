@@ -9,7 +9,7 @@ function Corpo(){
 
     const {incrementarContador} = useContador()
     const [produtoSelecionado,setProdutoSelecionado]=useState([])
-    const [gravarProduto,setGravarProduto] = useState([{}])
+    const [gravarProduto,setGravarProduto] = useState([])
 
     useEffect(()=>{
         async function handleMKS(){
