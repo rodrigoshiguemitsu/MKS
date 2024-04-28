@@ -47,7 +47,7 @@ function Corpo(){
     }
 
     return(
-        <body>
+        <div>
             <section id='bodyCards'>
                 {gravarProduto.map((item)=>{
                     return(
@@ -75,7 +75,7 @@ function Corpo(){
 
                 }
             </section>
-        </body>
+        </div>
     )
 }
 export default Corpo
