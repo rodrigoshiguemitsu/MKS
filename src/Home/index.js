@@ -10,11 +10,13 @@ import Cabecalho from "../components/Header"
 
 function Home(){
     return(
+        <div>
         <ContadorProvider>
             <Cabecalho/>
             <Corpo/>
             <Footer/>
         </ContadorProvider>
+        </div>
     )
 }
 export default Home
